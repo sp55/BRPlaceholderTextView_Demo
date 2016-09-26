@@ -437,6 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BRPlaceholderTextView_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.BRPlaceholderTextView-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -448,6 +449,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BRPlaceholderTextView_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.BRPlaceholderTextView-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -519,6 +521,7 @@
 				84CFC8601D97654A00F14D95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84CFC8611D97654A00F14D95 /* Build configuration list for PBXNativeTarget "BRPlaceholderTextView_DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +530,7 @@
 				84CFC8631D97654A00F14D95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84CFC8641D97654A00F14D95 /* Build configuration list for PBXNativeTarget "BRPlaceholderTextView_DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +539,7 @@
 				84CFC8661D97654A00F14D95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
