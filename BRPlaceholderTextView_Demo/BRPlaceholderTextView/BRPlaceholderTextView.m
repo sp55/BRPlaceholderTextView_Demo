@@ -157,6 +157,17 @@
 
 -(void)textViewBeginNoti:(NSNotification*)noti{
     
+    if (self.placeholder.length == 0 || [self.placeholder isEqualToString:@""]) {
+        _PlaceholderLabel.hidden=YES;
+    }
+    
+    if (self.text.length > 0) {
+        _PlaceholderLabel.hidden=YES;
+    }
+    else{
+        _PlaceholderLabel.hidden=NO;
+    }
+    
     if (_BeginBlock) {
         void(^begin)(BRPlaceholderTextView*text)=_BeginBlock;
         begin(self);
